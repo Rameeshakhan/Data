@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  /* overflow: scroll; */
+}
+.left-section{
+  width: 25%;
+  padding: 20px;
+  height: auto;
+  margin: 20px;
+}
+
+.right-section{
+  width: 75%;
+  padding: 20px;
+  height: auto;
+  margin: 20px;
+}
+
+h1{
+  color: aqua;
+}
+p{
+  padding: 10px;
+}
+.info-card{
+  /* background-color: aqua; */
+  background-image: linear-gradient(rgb(122, 245, 243), rgb(33, 223, 220), rgb(249, 115, 229));
+padding: 5px;
+margin: 5px;
+color: black;
+}
+
+button{
+  margin: 8px;
+  padding: 10px 20px;
+  background-color: aqua;
+  color: black;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
